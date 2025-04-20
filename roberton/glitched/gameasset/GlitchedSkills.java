@@ -13,4 +13,4 @@ public class EpicFightSkills {
   public static void buildSkillEvent(SkillBuildEvent build) {
 		ModRegistryWorker modRegistry = build.createRegistryWorker(EpicFightMod.MODID);
 
-		GLITCHSTEP = modRegistry.build("glitchstep", DodgeSkill::new, DodgeSkill.createDodgeBuilder().setAnimations(Animations.BIPED_STEP_FORWARD, Animations.BIPED_STEP_BACKWARD, Animations.BIPED_STEP_LEFT, Animations.BIPED_STEP_RIGHT));
+		GLITCHSTEP = modRegistry.build("glitchstep", DodgeSkill::new, DodgeSkill.createDodgeBuilder().setAnimations(Animations.BIPED_GLITCHED_STEP_FORWARD, Animations.BIPED_GLITCHED_STEP_BACKWARD, Animations.BIPED_GLITCHED_STEP_LEFT, Animations.BIPED_GLITCHED_STEP_RIGHT));
