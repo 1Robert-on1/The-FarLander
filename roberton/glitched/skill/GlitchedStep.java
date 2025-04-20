@@ -11,10 +11,10 @@ import yesman.epicfight.skill.SkillContainer;
 import yesman.epicfight.world.entity.eventlistener.ComboCounterHandleEvent;
 import yesman.epicfight.world.entity.eventlistener.PlayerEventListener.EventType;
 
-public class StepSkill extends DodgeSkill {
+public class GLITCHSTEP extends DodgeSkill {
 	private static final UUID EVENT_UUID = UUID.fromString("23bd5c76-fe77-11ed-be56-0242ac120002");
 	
-	public StepSkill(DodgeSkill.Builder builder) {
+	public GLITCHSTEP(DodgeSkill.Builder builder) {
 		super(builder);
 	}
 	
